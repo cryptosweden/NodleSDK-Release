@@ -1,0 +1,31 @@
+version = 1
+
+[[analyzers]]
+name = "go"
+enabled = true
+
+  [analyzers.meta]
+  import_root = "github.com/cryptosweden/NodleSDK-Release"
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+[[analyzers]]
+name = "docker"
+enabled = true
+
+[[analyzers]]
+name = "sql"
+enabled = true
+
+[[analyzers]]
+name = "rust"
+enabled = true
+
+  [analyzers.meta]
+  msrv = "1.30.0"
+
+[[analyzers]]
+name = "shell"
+enabled = true
